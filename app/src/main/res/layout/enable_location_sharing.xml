@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- drawable/gtvertical_.xml -->
+
+    <TextView
+        android:id="@+id/share_locat"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        android:text="@string/share_locat"
+        android:textAppearance="@style/share_locat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tech_life_c" />
+
+    <TextView
+        android:id="@+id/this_app_co"
+        android:layout_width="300dp"
+        android:layout_height="121dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/this_app_co"
+        android:textAppearance="@style/this_app_co"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share_locat" />
+
+    <Button
+        android:id="@+id/notificatio"
+        android:layout_width="292dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/enable_share_locat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/this_app_co" />
+
+
+    <!-- Tech Life Communication -->
+
+
+    <!-- drawable/tech_life_c.xml -->
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="80dp"
+        android:layout_height="108dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/some_id"
+        app:layout_constraintEnd_toStartOf="@+id/gtvertical_"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notificatio" />
+
+    <View
+        android:id="@+id/gtvertical_"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/gtvertical_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notificatio" />
+
+    <View
+        android:id="@+id/tech_life_c"
+        android:layout_width="339dp"
+        android:layout_height="241dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/tech_life_c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

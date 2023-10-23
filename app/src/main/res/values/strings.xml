@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">TransACT</string>
+    <!-- Strings related to login -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="or">or</string>
+    <string name="back">Back</string>
+    <string name="sign_up_prompt">Don’t have an account? Sign Up</string>
+    <string name="homepage">This is home page</string>
+    <string name="userprofile">User Profile</string>
+    <string name="you_are_signed_in">You are signed in</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="create_account">Create account</string>
+    <string name="update_page">update_page</string>
+    <string name="location_page">location_page</string>
+    <string name="profile_page">profile_page</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sign_up_survey">Signup Survey</string>
+    <string name="mid_term">Midterm Survey</string>
+    <string name="reduce_emission">Reduce Emissions the Easy Way</string>
+    <string name="new_incentives">Gwinnett Transit Launches New Incentives</string>
+    <string name="meet_up">Meet the Most Sustainable Users in PTC</string>
+    <string name="feedback">Feedback Survey</string>
+    <string name="google_map">Google Map</string>
+    <string name="googleMapAPI">AIzaSyAO5Xh_evzAIWmGHx1jPEO2Gf5AUmkb4BM</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Updates">Updates</string>
+    <string name="Location">Location</string>
+    <string name="Profile">Profile</string>
+    <string name="login">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="firstname">First Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="don_t_miss_">
+        Don\'t miss out!
+    </string>
+    <string name="get_push_no">
+        Get push notifications for available incentives, research updates and other activities going on!
+    </string>
+    <string name="enable_push_no">
+        Enable Push Notifications
+    </string>
+    <string name="share_locat">
+        Share location!
+    </string>
+    <string name="this_app_co">
+        This app collects location services to understand the congestion distribution and By enabling the location you are providing access to Georgia Tech researchers to use the data for future studies. You can opt out of the study at any time.
+    </string>
+    <string name="enable_share_locat">
+        Accept and Enable Location Always
+    </string>
+    <string name="apikey">
+        AIzaSyAO5Xh_evzAIWmGHx1jPEO2Gf5AUmkb4BM
+    </string>
+    <string name="no_account">Don’t have an account?</string>
+    <string name="log_in_prompt">Already have an account? Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="get_reset_email">GET RESET EMAIL</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="user_profile_picture">user_profile_picture</string>
+    <string name="edit_first_name">Tap to edit your first name</string>
+    <string name="edit_last_name">Tap to edit your last name</string>
+    <string name="edit_phone_number">Tap to edit your phone number</string>
+    <string name="testNotificationMessage">This is a message to test out notification</string>
+    <string name="testNotificationTitle">This is the title for notification</string>
+    <string name="default_notification_channel_id">notification_channel</string>
+    <string name="high_imp_channel_id">high_imp_notification_channel</string>
+    <string name="msg_token_fmt">messageToken</string>
+    <string name="high_imp_channel_description">This is a channel for important notifications</string>
+    <string name="high_imp_channelID">high_imp_channelID</string>
+
+    <string name="travel_info">Travel Information</string>
+    <string name="accept_and_continue">ACCEPT AND CONTINUE</string>
+    <string name="do_not_accept">DO NOT ACCEPT</string>
+    <string name="enable_location">Enable Location!</string>
+    <string name="this_app_collects_location_services_to_understand_the_congestion_distribution_by_enabling_the_location_you_are_providing_access_to_georgia_tech_researchers_to_use_the_data_for_future_studies_you_can_opt_out_of_the_study_at_any_time_the_data_is_collected_through_google_cloud_services_and_will_be_de_identified_in_the_future">This app collects location services to understand the congestion distribution. By enabling the location you are providing access to Georgia Tech researchers to use the data for future studies. You can opt out of the study at any time. The data is collected through google cloud services and will be de-identified in the future.</string>
+    <string name="receive_notification">Receive Notification!</string>
+    <string name="notification_warning">This app sends notifications to the users to update them about reseearch updates and reminders. Pleaase accept and enable notifications to not miss out on updates.</string>
+    <string name="peachtree_icon">Peachtree Icon</string>
+    <string name="gt_icon">GT_icon</string>
+
+
+</resources>

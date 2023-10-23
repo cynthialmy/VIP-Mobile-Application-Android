@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    android:label="update_page"
+    app:startDestination="@id/homePage">
+    <activity
+        android:id="@+id/homePage"
+        android:name="edu.gatech.transact.views.HomeActivity"
+        android:label="HomeActivity" />
+    <fragment
+        android:id="@+id/profilePage"
+        android:name="edu.gatech.transact.views.ProfilePage"
+        android:label="ProfilePage" />
+    <activity
+        android:id="@+id/googleMapActivity"
+        android:name="edu.gatech.transact.views.GoogleMapActivity"
+        android:label="activity_google_map"
+        tools:layout="@layout/activity_google_map" />
+
+</navigation>
